@@ -33,5 +33,12 @@
     "title": "My Résumé ♡",
     "section": "",
     "text": "MY PROFESSIONAL JOURNEY\n\n  My Résumé ♡\n\n  \n    Explore my academic background, professional experience,\n    technical skills, and actuarial qualifications.\n  \n\n  \n     Download Résumé\n  \n\n  \n    \n    \n  \n\n  \n    \n      Open résumé in a new tab"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "My Projects ♡",
+    "section": "",
+    "text": "Exploring the world through data, mathematics, and curiosity.\n  ☁️\n\n\n\n  Featured Projects\n  A collection of my work in data science, actuarial science, and statistical research.\n\n\n\n\n  \n    \n\n    \n      Completed\n\n      Actuarial Exam Preparation Market Intelligence\n\n      BattleActs\n\n      An end-to-end data science project exploring actuarial exam preparation materials through automated web scraping, product data collection, text mining, and comparative analysis.\n\n      \n        Python\n        Selenium\n        Web Scraping\n        NLP\n        Data Visualization\n        Competitive Intelligence\n      \n\n      \n         View on GitHub ↗\n      \n    \n  \n\n  \n    ☁️\n\n    \n      In Progress\n\n      Actuarial Text Mining\n\n      Exploring thematic patterns and relationships within actuarial text using natural language processing, unsupervised machine learning, and clustering techniques.\n\n      \n        Python\n        NLP\n        Machine Learning\n        Clustering\n      \n\n      Coming soon ♡\n    \n  \n\n  \n    ☁️\n\n    \n      In Progress\n\n      Understanding SMART Designs\n\n      An educational statistical explainer exploring Sequential Multiple Assignment Randomized Trials through simulations, visualizations, and animations.\n\n      \n        R\n        Experimental Design\n        Simulation\n        Statistical Communication\n      \n\n      Coming soon ♡\n    \n  \n\n\n\n\n  Always learning, always curious.\n  More projects and discoveries to come! ♡"
   }
 ]
