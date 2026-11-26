@@ -18,15 +18,7 @@ page-layout: full
       <img src="headshot.jpeg" alt="Professional headshot">
     </div>
 
-    <div class="welcome-text">
-      WELCOME TO MY LITTLE CORNER OF THE INTERNET
-    </div>
-
     <h1>Maxine Hakimi-Bulson</h1>
-
-    <p class="tagline">
-      Data science, mathematics &amp; a little curiosity.
-    </p>
 
     <p>M.S. in Data Science at Emory University</p>
 
@@ -74,28 +66,24 @@ page-layout: full
   <div class="info-grid">
 
     <div class="info-card">
-      <div class="card-icon">🎓</div>
-      <h3>Education</h3>
+      <h3>Education 🎓</h3>
       <p>M.S. in Data Science</p>
       <p>B.S. in Applied Mathematics &amp; Statistics</p>
     </div>
 
     <div class="info-card">
-      <div class="card-icon">📊</div>
-      <h3>Actuarial Science</h3>
+      <h3>Actuarial Science 📊</h3>
       <p>Actuarial Candidate</p>
       <p>Exams P &amp; FM Passed</p>
     </div>
 
     <div class="info-card">
-      <div class="card-icon">💻</div>
-      <h3>Research</h3>
+      <h3>Research 💻</h3>
       <p>Graduate Data Science Fellow</p>
     </div>
 
     <div class="info-card">
-      <div class="card-icon">📚</div>
-      <h3>Teaching</h3>
+      <h3>Teaching 📚</h3>
       <p>Teaching Assistant &amp; Mathematics Tutor</p>
     </div>
 
@@ -106,22 +94,36 @@ page-layout: full
   <div class="info-grid">
 
     <div class="info-card">
-      <h3>Actuarial Text Mining</h3>
-      <p>Exploring actuarial study materials through web scraping, natural language processing, and machine learning.</p>
-      <a href="projects.html">Explore my projects →</a>
+
+      <h3>Actuarial Exam Preparation Market Intelligence</h3>
+
+      <p>An end-to-end data science project exploring actuarial exam preparation materials through automated web scraping, natural language processing, and competitive intelligence.</p>
+
+      <a href="https://github.com/maxinehb/battleacts-market-intelligence"
+         target="_blank" rel="noopener noreferrer">
+        View GitHub project ↗
+      </a>
     </div>
 
     <div class="info-card">
-      <h3>Understanding SMART Designs</h3>
-      <p>An educational explainer on sequential multiple assignment randomized trials.</p>
-      <a href="projects.html">Explore my projects →</a>
+
+      <h3>SMART Experiments: What Comes Next?</h3>
+
+      <p>An interactive statistical explainer exploring adaptive treatment strategies through sequential randomization, animated visualizations, and Monte Carlo simulations.</p>
+
+      <a href="https://maxinehb.github.io/smart-experiments-explainer/"
+         target="_blank" rel="noopener noreferrer">
+        View interactive explainer ↗
+      </a>
     </div>
 
   </div>
 
-  <p class="closing-message">
-    Always learning, always curious. ♡
-  </p>
+  <div style="text-align: center; margin-top: 25px;">
+    <a class="social-button" href="projects.html">
+      Explore all my projects →
+    </a>
+  </div>
 
 </div>
 ```

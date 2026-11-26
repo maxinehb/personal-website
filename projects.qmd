@@ -1,15 +1,8 @@
-
 ---
 title: ""
 ---
 
 ```{=html}
-<div class="portfolio-banner">
-  <h1>My Projects ♡</h1>
-  <p>Exploring the world through data, mathematics, and curiosity.</p>
-  <span>☁️</span>
-</div>
-
 <div class="portfolio-section-heading">
   <h2>Featured Projects</h2>
   <p>A collection of my work in data science, actuarial science, and statistical research.</p>
@@ -23,7 +16,6 @@ title: ""
          alt="Similarity analysis of actuarial study materials">
 
     <div class="portfolio-project-content">
-      <span class="portfolio-status">Completed</span>
 
       <h2>Actuarial Exam Preparation Market Intelligence</h2>
 
@@ -49,6 +41,45 @@ title: ""
   </div>
 
   <div class="portfolio-project-card">
+    <img class="portfolio-project-image"
+         src="images/projects/smart.png"
+         alt="Illustration of SMART trial branching and adaptive treatment pathways">
+
+    <div class="portfolio-project-content">
+
+      <h2>SMART Experiments: What Comes Next?</h2>
+
+      <p class="portfolio-project-subtitle">Interactive Statistical Explainer</p>
+
+      <p>An interactive statistical explainer exploring Sequential Multiple Assignment Randomized Trials (SMARTs) as an extension of traditional A/B testing. Combines animated visualizations, a real clinical trial example, and Monte Carlo simulations to demonstrate adaptive treatment strategies, statistical estimation, and inference.</p>
+
+      <div class="portfolio-tags">
+        <span>R</span>
+        <span>Quarto</span>
+        <span>Experimental Design</span>
+        <span>Monte Carlo Simulation</span>
+        <span>Statistical Inference</span>
+        <span>Data Visualization</span>
+        <span>JavaScript</span>
+      </div>
+
+      <div class="portfolio-project-links">
+        <a class="portfolio-project-button"
+           href="https://maxinehb.github.io/smart-experiments-explainer/"
+           target="_blank" rel="noopener noreferrer">
+           View Interactive Explainer ↗
+        </a>
+
+        <a class="portfolio-project-button secondary-button"
+           href="https://github.com/maxinehb/smart-experiments-explainer"
+           target="_blank" rel="noopener noreferrer">
+           View on GitHub ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="portfolio-project-card">
     <div class="portfolio-project-placeholder">☁️</div>
 
     <div class="portfolio-project-content">
@@ -69,31 +100,9 @@ title: ""
     </div>
   </div>
 
-  <div class="portfolio-project-card">
-    <div class="portfolio-project-placeholder">☁️</div>
-
-    <div class="portfolio-project-content">
-      <span class="portfolio-status in-progress">In Progress</span>
-
-      <h2>Understanding SMART Designs</h2>
-
-      <p>An educational statistical explainer exploring Sequential Multiple Assignment Randomized Trials through simulations, visualizations, and animations.</p>
-
-      <div class="portfolio-tags">
-        <span>R</span>
-        <span>Experimental Design</span>
-        <span>Simulation</span>
-        <span>Statistical Communication</span>
-      </div>
-
-      <p class="portfolio-coming-soon">Coming soon ♡</p>
-    </div>
-  </div>
-
 </div>
 
 <div class="portfolio-closing">
-  <h2>Always learning, always curious.</h2>
   <p>More projects and discoveries to come! ♡</p>
 </div>
 ```

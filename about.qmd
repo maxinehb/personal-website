@@ -14,9 +14,6 @@ page-layout: full
     <div class="hero-content">
       <div class="welcome-text">A LITTLE MORE ABOUT ME</div>
       <h1>Hello, nice to meet you! ♡</h1>
-      <p class="tagline">
-        Mathematics, data science &amp; lifelong curiosity.
-      </p>
     </div>
 
     <div class="cloud-border"></div>
@@ -94,7 +91,6 @@ page-layout: full
   <div class="info-grid">
 
     <div class="info-card">
-      <div class="card-icon">💻</div>
       <h3>Data Science &amp; Research</h3>
       <p>
         As a Graduate Data Science Fellow at Emory
@@ -106,7 +102,6 @@ page-layout: full
     </div>
 
     <div class="info-card">
-      <div class="card-icon">📊</div>
       <h3>Actuarial Science</h3>
       <p>
         I am pursuing a career in actuarial science,
@@ -117,7 +112,6 @@ page-layout: full
     </div>
 
     <div class="info-card">
-      <div class="card-icon">🎓</div>
       <h3>Teaching</h3>
       <p>
         As a Regression Analysis Teaching Assistant
@@ -128,7 +122,6 @@ page-layout: full
     </div>
 
     <div class="info-card">
-      <div class="card-icon">📚</div>
       <h3>Math2TheMax Tutoring</h3>
       <p>
         Through my independent mathematics tutoring
@@ -163,9 +156,7 @@ page-layout: full
   
 <div class="personal-section">
 
-  <div class="card-icon">🧶</div>
-
-  <h2>Beyond the Numbers ♡</h2>
+  <h2>Beyond the Numbers 🧶</h2>
 
   <p>
     Outside of academics and work, I love crocheting
@@ -197,11 +188,6 @@ page-layout: full
   </p>
 
 </div>
-
-
-  <p class="closing-message">
-    Always learning, always curious. ♡
-  </p>
 
 </div>
 ```

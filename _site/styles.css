@@ -889,3 +889,323 @@ main.content {
     grid-template-columns: 1fr;
   }
 }
+
+/* Project Card Buttons */
+
+.portfolio-project-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.portfolio-project-links .portfolio-project-button {
+  margin: 0;
+}
+
+.portfolio-project-button.secondary-button {
+  background: transparent;
+  color: #365776;
+  border: 1.5px solid #BBD7F0;
+}
+
+.portfolio-project-button.secondary-button:hover {
+  background: #E4F1FC;
+  color: #365776;
+}
+
+/* ========================================
+   RESPONSIVE FULL-WIDTH DESKTOP LAYOUT
+   ======================================== */
+
+@media screen and (min-width: 992px) {
+
+  /* Remove Quarto's default width restrictions */
+
+  #quarto-content {
+    display: block !important;
+    width: 94% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  main.content {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+
+  /* Expand navigation bar */
+
+  .navbar-container {
+    width: 94%;
+    max-width: none !important;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 1.1rem;
+    padding: 10px 16px;
+  }
+
+  /* Expand all main website sections */
+
+  .hero-section,
+  .about-section,
+  .about-page,
+  .resume-section,
+  .portfolio-banner,
+  .portfolio-section-heading,
+  .portfolio-project-grid,
+  .portfolio-closing {
+    width: 100%;
+    max-width: none !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Homepage banner */
+
+  .hero-section {
+    padding: 70px 40px 100px;
+  }
+
+  .hero-content {
+    max-width: 95%;
+  }
+
+  .hero-content h1 {
+    font-size: clamp(3rem, 4.5vw, 5rem);
+  }
+
+  .profile-photo {
+    width: 210px;
+    height: 210px;
+  }
+
+  .welcome-text {
+    font-size: 0.9rem;
+  }
+
+  .tagline {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+
+  .hero-content .tagline {
+    font-size: 1.6rem;
+  }
+
+  .social-button {
+    font-size: 1.1rem;
+    padding: 12px 28px;
+  }
+
+  /* Homepage and information cards */
+
+  .about-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    max-width: 1000px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+
+  .info-grid,
+  .portfolio-project-grid {
+    gap: 30px;
+  }
+
+  .info-card {
+    padding: 35px;
+  }
+
+  .info-card h3 {
+    font-size: 1.6rem;
+  }
+
+  .info-card p {
+    font-size: 1.15rem;
+  }
+
+  /* About Me page */
+
+  .story-section,
+  .about-page .info-grid,
+  .personal-section {
+    max-width: 90%;
+  }
+
+  .story-text {
+    font-size: 1.15rem;
+  }
+
+  .academic-timeline {
+    max-width: 1000px;
+  }
+
+  .skill-tags {
+    max-width: 1100px;
+  }
+
+  .crochet-gallery {
+    max-width: 1000px;
+  }
+
+  /* Projects page */
+
+  .portfolio-project-content {
+    padding: 35px;
+  }
+
+  .portfolio-project-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-project-content p {
+    font-size: 1.15rem;
+    line-height: 1.7;
+  }
+
+  .portfolio-project-image,
+  .portfolio-project-placeholder {
+    height: 320px;
+  }
+
+  .portfolio-tags span {
+    font-size: 0.9rem;
+  }
+
+  /* Resume page */
+
+  .resume-preview {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* LARGER DESKTOP TYPOGRAPHY */
+
+@media screen and (min-width: 992px) {
+
+  html {
+    font-size: 24px !important;
+  }
+
+  body {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  /* Navigation bar */
+
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 1.2rem;
+  }
+
+  /* Homepage */
+
+  .hero-content h1 {
+    font-size: clamp(3rem, 4.5vw, 5rem);
+  }
+
+  .welcome-text {
+    font-size: 1rem;
+  }
+
+  .hero-content .tagline {
+    font-size: 1.7rem;
+  }
+
+  .hero-content p {
+    font-size: 1.3rem;
+  }
+
+  .social-button {
+    font-size: 1.15rem;
+  }
+
+  .intro {
+    font-size: 1.25rem;
+  }
+
+  /* Section headings */
+
+  .about-section h2,
+  .section-heading,
+  .portfolio-section-heading h2 {
+    font-size: 2.5rem;
+  }
+
+  /* Information cards */
+
+  .info-card h3 {
+    font-size: 1.65rem;
+  }
+
+  .info-card p,
+  .info-card a {
+    font-size: 1.2rem;
+  }
+
+  /* About Me page */
+
+  .story-text,
+  .timeline-item p,
+  .personal-section p {
+    font-size: 1.2rem;
+  }
+
+  .timeline-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .skill-tags span {
+    font-size: 1rem;
+  }
+
+  /* Projects page */
+
+  .portfolio-project-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .portfolio-project-content p {
+    font-size: 1.2rem;
+  }
+
+  .portfolio-tags span {
+    font-size: 1rem;
+  }
+
+  .portfolio-project-button {
+    font-size: 1.1rem;
+  }
+
+  /* Resume page */
+
+  .resume-intro {
+    font-size: 1.2rem;
+  }
+
+  /* Footer */
+
+  .nav-footer {
+    font-size: 1rem;
+  }
+}

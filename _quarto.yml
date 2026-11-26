@@ -27,6 +27,7 @@ website:
         text: Résumé
 
   page-footer:
+    center: "© 2026 Maxine Hakimi-Bulson"
     background: "#E4F1FC"
 
 format:
@@ -34,4 +35,10 @@ format:
     theme: cosmo
     css: styles.css
     toc: false
+    anchor-sections: false
     fontsize: 1.05em
+    page-layout: full
+    grid:
+      body-width: 1400px
+      margin-width: 50px
+      sidebar-width: 0px
